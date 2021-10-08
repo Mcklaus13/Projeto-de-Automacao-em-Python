@@ -1,16 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
 
 
 ''' Projeto de automação de envios de e-email.
 Projeto criado para automatizar envios de relatórios por e-mail diário,semanal,mensal ou anual.
 A linguagem utilizada nesse projeto foi Python e a ferramenta Jupyter Notebook.As bibliotecas foram:Pandas,Pyautogui,time,Pyperclip.
 '''
-
-
-# In[92]:
 
 
 import pyautogui 
@@ -38,10 +32,6 @@ pyautogui.click(x=560, y=564,clicks=1)
 time.sleep(5)
 
 
-
-# In[95]:
-
-
 # Passo 4: Calcular os indicadores Faturamento e Qtd de produtos
 import pandas as pd
  
@@ -64,7 +54,7 @@ time.sleep(5)
 pyautogui.click(x=102, y=223,clicks=1)
 time.sleep(3)
 
-pyautogui.write('10viictor39@gmail.com')
+pyautogui.write('victormcklaustreze@gmail.com')
 time.sleep(1)
 pyautogui.press("tab")
 time.sleep(2)
