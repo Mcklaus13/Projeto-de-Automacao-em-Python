@@ -78,9 +78,6 @@ pyautogui.hotkey('ctrl','v')
 pyautogui.hotkey('ctrl','enter')
 
 
-# In[94]:
-
-
-time.sleep(5)
-pyautogui.position()
+# time.sleep(5)
+# pyautogui.position() Comando para saber a posição do mouse na tela ( no caso a do meu computador)
 
